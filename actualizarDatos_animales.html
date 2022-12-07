@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar Datos de Animales</title>
+
+    <link rel="stylesheet" href="style/actualizarDatos_animales.css">
+</head>
+<body>
+    <!-- header - cabecer -->
+    <header class="header">
+        <figure>
+            <img src="img/logo_agropecuaria.jpeg " alt="logo">
+        </figure>
+        
+
+        <h1>INSTITUTO DE EDUCACIÓN SUPERIOR
+            TECNOLÓGICO PÚBICO "SULLANA"</h1>
+    </header>
+
+    <!-- nav - menu navegacion -->
+    <nav class="nav">
+        <ul>
+            
+            <li ><a href="index_sistema.html">
+            INICIO</a></li>
+            <li><a href="registrarDatos.html">REGISTRAR DATOS DE ANIMALES-CULTIVO</a></li>
+            <li><a href="atencion_consulta.html">ATENCIÓN Y CONSULTA</a></li>
+            <li class="actualizar_datos"><a href="actializar_datos.html"><b> ACTUALIZAR DATOS</b></a></li>
+        </ul>
+    </nav>
+
+
+        <!-- main - contenido principal -->
+    <main class="main">
+        <div class="datos_animalesCultivo">
+                <li class="cambiar_color"><a href="actualizarDatos_animales.html"><b> ACTUALIZAR DATOS DE LOS ANIMALES</b></a></li>
+                <li><a href="actualizarDatos_cultivo.html">ACTUALIZAR DATOS DEL CULTIVO</a></li>
+            </div>
+        
+        <div class="conteiner_01">
+    
+            
+            <!--datos usuario-->
+            <div class="datos_usuario">
+    <form>
+    
+    <label for="codigo">Codigo del Animal:</label>
+    <input type="number" placeholder="Ingrese el nombre del cultivo" id="codigo">
+    
+    
+    <br>
+    
+    <label for="nombre">Nombre:</label>
+    <input type="text" placeholder="Ingrese el nombre del animal" id="nombre">
+    
+    <br>
+    
+    <label for="raza">Raza:</label>
+    <input type="text" placeholder="Ingrese la raza del animal" id="raza">
+    
+    <br>
+    <label for="tipo_animal">Tipo de Animal:</label>
+    <input type="date" placeholder="Ingrese el tipo de animal" id="tipo_animal">
+    
+    <br>
+    
+    <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+    <input type="date" placeholder="Ingrese la fecha de Nacimiento del animal" id="fecha_nacimiento">
+    
+    </form>
+            </div>
+    
+        </div>
+    
+        <!--BOTONES-->
+        <section class="botones">
+            <button>Actualizar</button>
+            <button>Guardar</button>
+            <button>Borrar</button>
+        </section>
+    
+    </div>
+</main>
+
+
+
+    <!-- footer - pie de pagina -->
+    <footer class="footer">
+        <p><b>Derechos reservados por DPW IV SEMESTRE</b></p>
+    </footer>
+</body>
+</html>

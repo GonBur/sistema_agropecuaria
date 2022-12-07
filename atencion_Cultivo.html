@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atencion del Cultivo</title>
+
+    <link rel="stylesheet" href="style/atencion_Cultivo.css">
+</head>
+<body>
+    <!-- header - cabecer -->
+    <header class="header">
+        <figure>
+            <img src="img/logo_agropecuaria.jpeg " alt="logo">
+        </figure>
+        
+
+        <h1>INSTITUTO DE EDUCACIÓN SUPERIOR
+            TECNOLÓGICO PÚBICO "SULLANA"</h1>
+    </header>
+
+    <!-- nav - menu navegacion -->
+    <nav class="nav">
+        <ul>
+            
+            <li ><a href="index_sistema.html">
+            INICIO</a></li>
+            <li><a href="registrarDatos.html">REGISTRAR DATOS DE ANIMALES-CULTIVO</a></li>
+            <li class="atencion_consulta"><a href="atencion_consulta.html"><b>ATENCIÓN Y CONSULTA</b> </a></li>
+            <li><a href="actializar_datos.html"> ACTUALIZAR DATOS</a></li>
+        </ul>
+    </nav>
+
+ <!-- main - contenido principal -->
+ <main class="main">
+    <div class="datos_animalesCultivo">
+            <li><a href="atencion_Animales.html">Atencion de los Animales</a></li>
+            <li class="cambiar_color"><a href="atencion_Cultivo.html">Atencion del Cultivo</a></li>
+            <li><a href="consulta_Datos.html">Consultar Datos</a></li>
+        </div>
+    
+    <div class="conteiner_01">
+
+        
+        <!--datos usuario-->
+        <div class="datos_usuario">
+<form>
+
+<label for="codigo">Codigo del Cultivo:</label>
+<input type="number" placeholder="Ingrese el codigo del cultivo" id="codigo">
+
+<br>
+
+<label for="nombre">Nombre:</label>
+<input type="text" placeholder="Ingrese el codigo del cultivo" id="nombre">
+
+<br>
+        
+        <label for="tipo_cultivo">Tipo de Cultivo:</label>
+        <select name="" id="tipo_cultivo">
+        <option value="">Seleccionar tipo de cultivo</option>
+        <option value="">tipo 1</option>
+        <option value="">tipo 2</option>
+        <option value="">tipo 3</option>
+        <option value="">tipo 4</option>
+        </select>
+
+<br>
+
+<label for="observacion">Observacion:</label>
+<input type="text" placeholder="Ingrese un comentario sobre el estado del cultivo" id="observacion">
+
+
+</form>
+        </div>
+
+    </div>
+
+    <!--BOTONES-->
+    <section class="botones">
+        <button>Guardar</button>
+        <button>Borrar</button>
+    </section>
+
+</div>
+</main>
+
+    <!-- footer - pie de pagina -->
+    <footer class="footer">
+        <p><b>Derechos reservados por DPW IV SEMESTRE</b></p>
+    </footer>
+</body>
+</html>

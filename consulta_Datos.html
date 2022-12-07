@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Datos</title>
+
+    <link rel="stylesheet" href="style/consulta_Datos.css">
+</head>
+<body>
+    <!-- header - cabecer -->
+    <header class="header">
+        <figure>
+            <img src="img/logo_agropecuaria.jpeg " alt="logo">
+        </figure>
+        
+
+        <h1>INSTITUTO DE EDUCACIÓN SUPERIOR
+            TECNOLÓGICO PÚBICO "SULLANA"</h1>
+    </header>
+
+    <!-- nav - menu navegacion -->
+    <nav class="nav">
+        <ul>
+            
+            <li ><a href="index_sistema.html">
+            INICIO</a></li>
+            <li><a href="registrarDatos.html">REGISTRAR DATOS DE ANIMALES-CULTIVO</a></li>
+            <li class="atencion_consulta"><a href="atencion_consulta.html"><b>ATENCIÓN Y CONSULTA</b> </a></li>
+            <li><a href="actializar_datos.html"> ACTUALIZAR DATOS</a></li>
+        </ul>
+    </nav>
+
+    <!-- main - contenido principal -->
+    <main class="main">
+        <div class="datos_animalesCultivo">
+                <li><a href="atencion_Animales.html">Atencion de los Animales</a></li>
+                <li><a href="atencion_Cultivo.html">Atencion del Cultivo</a></li>
+                <li class="cambiar_color"><a href="consulta_Datos.html">Consultar Datos</a></li>
+            </div>
+        
+            <div class="datos_animalesCultivo" id="datos_animalesCultivoSeparar">
+                <li class="cambiar_color"><a href="consulta_Datos.html">Consulta de Animales</a></li>
+                <li><a href="consulta_cultivo.html">Consulta del Cultivo</a></li>
+            </div>
+        <div class="conteiner_01">
+    
+            
+            
+            <!--datos usuario-->
+            <div class="datos_usuario">
+    <form>
+        <h2>PRODUCCION:</h2>
+    
+    <label for="codigo">Codigo del Animal:</label>
+    <input type="number" placeholder="Ingrese el nombre del Animal" id="codigo">
+    
+    
+    <br>
+    
+    <label for="nombre">Nombre:</label>
+    <input type="text" placeholder="Ingrese el nombre del animal" id="nombre">
+    
+    <br>
+    
+    <label for="fecha">Fecha:</label>
+    <input type="date" placeholder="Ingrese la fecha" id="fecha">
+    
+    <br>
+
+    <label for="hora">Hora:</label>
+    <input type="time" placeholder="Ingrese la hora de la consulta" id="hora">
+    
+    <br>
+    
+    <label for="obervacion">Observacion:</label>
+    <input type="number" placeholder="mostrara el tipo de atencion que se le dio" id="observacion">
+    
+    <br>
+
+    <label for="fecha">Fecha:</label>
+    <input type="time" placeholder="fecha de nacimiento de la cria" id="fecha">
+
+    <br>
+    
+    <label for="cantidad">Cantidad:</label>
+    <input type="text" placeholder="cantidad de crias con el mismo nombre" id="cantidad">
+    
+    </form>
+            </div>
+    
+        </div>
+    
+        <!--BOTONES-->
+        <section class="botones">
+            <button>Guardar</button>
+            <button>Borrar</button>
+        </section>
+    
+    </div>
+</main>
+
+    <!-- footer - pie de pagina -->
+    <footer class="footer">
+        <p><b>Derechos reservados por DPW IV SEMESTRE</b></p>
+    </footer>
+</body>
+</html>
